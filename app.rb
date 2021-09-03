@@ -29,7 +29,7 @@ class App < Sinatra::Base
       @output = @number_1 - @number_2
     elsif params[:operation] == "divide"
       @output = @number_1/@number_2
-    elsif params[:operation] == "mulitply"
+    elsif params[:operation] == "multiply"
       @output = @number_1*@number_2
     end
     
